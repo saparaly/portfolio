@@ -1,0 +1,55 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: var(--v1-dark);
+    margin-bottom: 15px;
+}
+
+span {
+    line-height: 160%;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+}
+
+.green {
+    color: #7EB942;
+}
+
+.bg {
+    background: var(--v1-primary);
+    padding: 3px 6px;
+    width: fit-content;
+    color: var(--v1-dark);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 40px;
+    background: var(--v1-primary);
+    color: var(--v1-dark);
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.mb {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+    margin-bottom: 40px;
+}
